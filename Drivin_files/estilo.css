@@ -44,37 +44,34 @@ header #btnheaderw {
 /*section 2*/
 #sec2 {
     background-color: #fff;
-    height: 92vh;
+    height: 95vh;
     text-align: center;
 }
 #sec2 .sectitle {
-    margin-top: 65px;
-    width: 300px;
+    width: 250px;
     display: inline-flex;
     flex-direction: column;
 }
 #sec2 .seccolumn {
-    margin-top: 5px;
     display: flex;
     justify-content: center;
-    height: 304px;
+    height: 305px;
 }
 #sec2 img {
-    width: 224px;
-    height: 224px;
+    width: 225px;
+    height: 225px;
 }
 #sec2 .seccolumnmin {
-    border: 1px solid #dedede;
     background-color: #dedede;
-    margin: 0 10px 0 10px;
+    margin: 0 5px 0 5px;
 }
-#sec2 h2 {
-    margin-top: 0;
-    font-size: 30px;
+#sec2 h3 {
+    font-weight: bold;
+    font-size: 20px;
 }
 #sec2 h6 {
-    margin-bottom: 10px;
-    color: rgb(255, 208, 0);
+    color: rgb(238, 195, 4);
+    border: none;
 }
 #sec2 h5 {
     margin-top: 18px;
