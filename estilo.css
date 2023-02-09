@@ -1,0 +1,43 @@
+
+* {
+    font-family: 'Fragment Mono', monospace;
+    font-family: 'Raleway', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: left;
+    background-color: #000;
+    height: 115vh;
+    background: rgba(0, 0, 0, 0.7) url('images.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+header > div {
+    width: 90vh;
+    margin: 35vh 3%;
+    text-align: center;
+}
+header > div > h1 {
+    font-size: 50px;
+    color: #fff;
+}
+header #btnheadery {
+    width: 20vh;
+    border: none;
+    padding: 14px 10px;
+    font-size: 11px;
+    margin-right: 5px;
+    color: #fff;
+    background-color: rgb(238, 195, 4);
+}
+header #btnheaderw {
+    width: 20vh;
+    border: none;
+    padding: 14px 10px;
+    margin-left: 5px;
+    font-size: 11px;
+    color: #000000;
+    background-color: #fff;
+}
