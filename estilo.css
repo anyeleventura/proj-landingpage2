@@ -3,6 +3,40 @@
     font-family: 'Fragment Mono', monospace;
     font-family: 'Raleway', sans-serif;
 }
+/*head*/
+#info {
+    display: flex;
+    justify-content: space-between;
+    background-color: #162e4b;
+    height: 4vh;
+}
+#head1 {
+    display: flex;
+}
+#head2 {
+    display: flex;
+}
+#head1 img {
+    margin-right: 5px;
+}
+section .h5 {
+    color: #fff;
+    font-size: 9px;
+}
+section img {
+    align-items: center;
+    width: 10px;
+}
+#imghead, #imghead1 {
+    padding: 10px;    
+}
+#imghead {
+    border-left: 1px solid #ffffff80;
+}
+#imghed1 {
+    height: 12px;
+}
+/*header*/
 header {
     display: flex;
     justify-content: left;
