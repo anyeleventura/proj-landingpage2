@@ -87,41 +87,77 @@ header #btnheaderw {
 /*footer*/
 footer {
     display: flex;
-    justify-content: space-between;
-    text-align: center;
+    justify-content: center;
     background-color: #162e4b;
-    height: 54vh;
+    height: 45vh;
+    letter-spacing: 1px;
 }
-footer div {
+footer > div {
     text-align: left;
-    margin: 11vh 5vh;
+    margin-top: 8vh;
 }
 footer h4, footer h5 {
     color: #fff;
 }
+footer h5 {
+    font-size: 11px;
+}
+footer h3 {
+    margin: 0;
+    color: rgb(255, 208, 0);
+}
 footer p {
     color: #fff;
-    font-size: 12px;
+    font-size: 11px;
 }
 footer a {
     display: block;
+    color: #fff;
+    font-size: 11px;
+    text-decoration: none;
+    line-height: 25px;
+}
+footer #imgcar {
+    width: 25px;
+    height: 25px;
+}
+footer #imginfo {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+footer #imgseta {
+    width: 10px;
+    height: 10px;
+}
+.fnav, .flink, .finput {
+    margin-left: 120px;
 }
 footer input {
-    width: 60vh;
+    width: 15vh;
+    height: 12px;
     border: none;
-    padding: 14px 19px;
-    background-color: #fff;
-    font-size: 11px;
+    padding: 14px 10px;
+    font-size: 10px;
 }
 footer #btnfooter {
-    width: auto;
+    height: 40px;
+    width: 10vh;
     border: none;
-    padding: 13px 14px;
-    font-size: 12px;
+    font-size: 10px;
     color: #fff;
     background-color: rgb(255, 208, 0);
 }
 footer #fbtn {
-    border: 1px solid #fff;
+    border-top: 1px solid #ffffff85;    
+    border-right: 1px solid #ffffff85;
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid #fff;
     background-color: #162e4b;
+    width: 30px;
+    height: 30px;
+}
+footer #img {
+    width: 12px;
+    height: 12px;
 }
