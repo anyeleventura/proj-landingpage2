@@ -3,6 +3,38 @@
     font-family: 'Fragment Mono', monospace;
     font-family: 'Raleway', sans-serif;
 }
+/*head*/
+/*#info {
+    display: flex;
+    justify-content: space-between;
+    background-color: #162e4b;
+    height: 4vh;
+}
+#head1 {
+}
+#head2 {
+}
+#head1 img {
+    margin-right: 5px;
+}
+section .h5 {
+    color: #fff;
+    font-size: 9px;
+}
+section img {
+    align-items: center;
+    width: 10px;
+}
+#imghead, #imghead1 {
+    padding: 10px;    
+}
+#imghead {
+    border-left: 1px solid #ffffff80;
+}
+#imghed1 {
+    height: 12px;
+}*/
+/*header*/
 header {
     display: flex;
     justify-content: left;
@@ -41,6 +73,58 @@ header #btnheaderw {
     color: #000000;
     background-color: #fff;
 }
+#sec1 {
+    display: flex;
+    justify-content: space-around;
+    height: 68vh;
+}
+.start {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.esquerda {
+    width: 450px;
+}
+#secesq {
+    display: flex;
+    justify-content: space-between;
+}
+#secdir {
+    display: flex;
+    justify-content: space-between;
+}
+#sec1 .imgs {
+    padding: 6px;
+    background-color: rgb(255, 208, 0);
+    width: 12px;
+    height: 12px;
+}
+#sec1 h5 {
+    margin-left: 4px;
+}
+h6 {
+    margin-bottom: 10px;
+    color: rgb(255, 208, 0);
+}
+h2 {
+    margin-top: 0;
+    font-size: 30px;
+}
+#sec1 #pl {
+    color: #000;
+    font-size: 11px;
+    width: 230px;
+}
+#sec1 .p1 {
+    color: #000;
+    font-size: 11px;
+    width: 425px;
+}
+#direita img {
+    width: 500px;
+    height: 500px;
+}
 /*section 2*/
 #sec2 {
     background-color: #fff;
@@ -67,14 +151,6 @@ header #btnheaderw {
     border: 1px solid #e9e8e8;
     background-color: #e9e8e8;
     margin: 0 10px 0 10px;
-}
-#sec2 h2 {
-    margin-top: 0;
-    font-size: 30px;
-}
-#sec2 h6 {
-    margin-bottom: 10px;
-    color: rgb(255, 208, 0);
 }
 #sec2 h5 {
     margin-top: 18px;
